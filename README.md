@@ -1,8 +1,8 @@
-# Templates-Angular15-NgrxData
+# Templates-Angular15-NgrxDataLocal
 
-## Web App ([repo](https://github.com/david-rachwalik/Templates-Angular15-NgrxData))
+## Web App ([repo](https://github.com/david-rachwalik/Templates-Angular15-NgrxDataLocal))
 
-Template for Angular web application with NgRx Data
+Template for Angular web application with NgRx Data with LocalStorage
 
 ### Project Commands Used (global)
 

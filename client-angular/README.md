@@ -1,8 +1,8 @@
-# Templates-Angular15-NgrxData
+# Templates-Angular15-NgrxDataLocal
 
-## Web App ([repo](https://github.com/david-rachwalik/Templates-Angular15-NgrxData))
+## Web App ([repo](https://github.com/david-rachwalik/Templates-Angular15-NgrxDataLocal))
 
-Template for Angular web application with NgRx Data
+Template for Angular web application with NgRx Data with LocalStorage
 
 ### Project Tech Stack
 
@@ -32,6 +32,12 @@ Install [ngrx-entity-relationship](https://www.npmjs.com/package/ngrx-entity-rel
 
 ```bash
 npm i ngrx-entity-relationship
+```
+
+Install [ngrx-store-localstorage](https://www.npmjs.com/package/ngrx-store-localstorage) to ease localStorage interactions ([Briebug Blog](https://blog.briebug.com/blog/how-to-add-ngrx-store-slices-into-localstorage))
+
+```bash
+npm i ngrx-store-localstorage
 ```
 
 ---

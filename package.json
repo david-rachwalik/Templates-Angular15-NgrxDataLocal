@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/david-rachwalik/Templates-Angular15-NgrxData",
+  "homepage": "https://github.com/david-rachwalik/Templates-Angular15-NgrxDataLocal",
   "scripts": {
     "lint": "eslint . --ext .js,.ts"
   },
