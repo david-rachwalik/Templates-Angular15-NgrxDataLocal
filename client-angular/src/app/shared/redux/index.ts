@@ -9,7 +9,6 @@ import { isDevMode } from '@angular/core';
 //   MetaReducer,
 // } from '@ngrx/store';
 import { ActionReducer, ActionReducerMap, MetaReducer } from '@ngrx/store';
-import { ngrxEntityRelationshipReducer } from 'ngrx-entity-relationship';
 
 import {
   productReducer,
@@ -33,6 +32,4 @@ export const reducers: ActionReducerMap<State> = {
   products: productReducer,
 };
 
-export const metaReducers: MetaReducer<State>[] = isDevMode()
-  ? [debug, ngrxEntityRelationshipReducer]
-  : [ngrxEntityRelationshipReducer];
+export const metaReducers: MetaReducer<State>[] = isDevMode() ? [debug] : [];

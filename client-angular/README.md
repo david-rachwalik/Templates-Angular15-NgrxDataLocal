@@ -28,12 +28,6 @@ ng add @ngrx/entity --skip-confirmation
 ng add @ngrx/data --skip-confirmation
 ```
 
-Install [ngrx-entity-relationship](https://www.npmjs.com/package/ngrx-entity-relationship) to ease relationships with entities ([NGRX example on StackBlitz](https://stackblitz.com/github/satanTime/ngrx-entity-relationship-angular?file=src/app/app.component.ts))
-
-```bash
-npm i ngrx-entity-relationship
-```
-
 Install [ngrx-store-localstorage](https://www.npmjs.com/package/ngrx-store-localstorage) to ease localStorage interactions ([Briebug Blog](https://blog.briebug.com/blog/how-to-add-ngrx-store-slices-into-localstorage))
 
 ```bash

@@ -10,14 +10,6 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'ngrx-entity-relationship',
-    loadChildren: () =>
-      import(
-        './modules/ngrx-entity-relationship/ngrx-entity-relationship.module'
-      ).then((m) => m.NgrxEntityRelationshipModule),
-  },
-  { path: 'rel', redirectTo: 'ngrx-entity-relationship', pathMatch: 'full' },
-  {
     path: 'ngrx-entity',
     loadChildren: () =>
       import('./modules/ngrx-entity/ngrx-entity.module').then(
